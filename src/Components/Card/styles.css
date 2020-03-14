@@ -9,3 +9,11 @@
     height: 311px;
     background-size: 100%;
 }
+#part-menu{
+    background-color: #5C4F13;
+    color: #fff;
+    text-align: center;
+}
+#part-menu h2{
+    color: #fff;
+}
