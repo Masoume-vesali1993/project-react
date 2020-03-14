@@ -1,0 +1,11 @@
+.card {
+    
+}
+.part-right{
+    text-align: center;
+}
+#back{
+    background-image: url(./img/menu.jpg);
+    height: 311px;
+    background-size: 100%;
+}
