@@ -5,7 +5,9 @@ import { Row, Col } from 'antd';
 import Slider from './Components/Card/Slider';
 import Menu from './Components/Card/Menu';
 import About from './Components/Card/About';
-import Img  from './Components/Card/Img';
+import Left  from './Components/Card/Left';
+import Center  from './Components/Card/Center';
+import Right  from './Components/Card/Right';
 
 
 function App() {
@@ -33,19 +35,26 @@ function App() {
           <h2>ویژگی های دیگر تاکسی آنلاین</h2>
       </about>
       {/* ------------------------------- img*/}
-        <Img>
-              <Row>
-                <Col xs={2} sm={4} md={6} lg={8} xl={10}>
-                  <img src={Img}/>;
-                </Col>
-                <Col xs={20} sm={16} md={12} lg={8} xl={4}>
-                  Col
-                </Col>
-                <Col xs={2} sm={4} md={6} lg={8} xl={10}>
-                  Col
-                </Col>
-              </Row>
-        </Img>
+        <Row>
+          <Left>
+              <Col xs={2} sm={4} md={6} lg={8} xl={10}>
+                <img src={Left}/>;
+              </Col>
+          </Left>
+
+          <Center>
+              <Col xs={20} sm={16} md={12} lg={8} xl={4}>
+                    <img src={Center}/>;
+              </Col>
+          </Center>
+
+          <Right>
+                  <Col xs={2} sm={4} md={6} lg={8} xl={10}>
+                  
+                  </Col>
+          </Right>
+        </Row>
+          
     </div>
   );
 }
