@@ -36,23 +36,20 @@ function App() {
       </about>
       {/* ------------------------------- img*/}
         <Row>
-          <Left>
+          <Left/>
               <Col xs={2} sm={4} md={6} lg={8} xl={10}>
                 <img src={Left}/>;
               </Col>
-          </Left>
 
-          <Center>
+          <Center/>
               <Col xs={20} sm={16} md={12} lg={8} xl={4}>
-                    <img src={Center}/>;
+                <img src={Center}/>;
               </Col>
-          </Center>
 
-          <Right>
-                  <Col xs={2} sm={4} md={6} lg={8} xl={10}>
-                  
-                  </Col>
-          </Right>
+          <Right/>
+                <Col xs={2} sm={4} md={6} lg={8} xl={10}>
+                  <img src={Right} />
+                </Col>
         </Row>
           
     </div>
