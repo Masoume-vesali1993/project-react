@@ -7,6 +7,6 @@ import Right from './Img/china.png'
 console.log(Right); // /logo.84287d09.png
 function rightimg() {
   // Import result is the URL of your image
-  return <img src={Right} alt="Right" />;
+  return <img src={Right} alt="Right" width="100px" height="100px"/>;
 }
 export default rightimg;

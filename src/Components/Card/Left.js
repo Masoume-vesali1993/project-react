@@ -7,6 +7,6 @@ import Left from './Img/family.png'
 console.log(Left); // /logo.84287d09.png
 function partimg() {
   // Import result is the URL of your image
-  return <img src={Left} alt="Left" />;
+  return <img src={Left} alt="Left" width="100px" height="100px"/>;
 }
 export default partimg;

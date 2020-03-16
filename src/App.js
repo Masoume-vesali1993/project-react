@@ -8,6 +8,7 @@ import About from './Components/Card/About';
 import Left  from './Components/Card/Left';
 import Center  from './Components/Card/Center';
 import Right  from './Components/Card/Right';
+import Towpart from './Components/Card/Towpart';
 
 
 function App() {
@@ -51,7 +52,16 @@ function App() {
                   <img src={Right} />
                 </Col>
         </Row>
-          
+          {/* ----------------------------------towpart */}
+          <Row>
+            <Towpart />
+              <Col span={12} id="part">
+                <p>قرار داد ثبتنام رانندگان</p>
+              </Col>
+              <Col span={12} id="part2">
+                <p>با کمک تاکسی آنلاین به راحتی می توان کسب درامد کرد</p>
+              </Col>
+          </Row>
     </div>
   );
 }
