@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles.css';
-import Right from './Img/china.png'
+import Right from './Img/china.png';
 
 
 

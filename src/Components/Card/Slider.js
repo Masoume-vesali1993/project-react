@@ -1,21 +1,25 @@
-import React from 'react';
-import './styles.css';
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
 
-export default class extends React.Component {
-
-    constructor(props){
-        super(props);
-        this.state={
-            props : props
-        }
-    }
-
-    render(){
+ 
+class DemoCarousel extends Component {
+    render() {
         return (
-            <div className="slider">
-                <h3>{this.state.props.text}</h3>
-            </div>
+            <Carousel>
+                
+            </Carousel>
         );
     }
-
-}
+};
+ 
+ReactDOM.render(<DemoCarousel />, document.querySelector('.demo-carousel'));
+ 
+// Don't forget to include the css in your page
+ 
+// Using webpack
+// import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
+ 
+// Using html tag:
+// <link rel="stylesheet" href="<NODE_MODULES_FOLDER>/react-responsive-carousel/lib/styles/carousel.min.css"/>

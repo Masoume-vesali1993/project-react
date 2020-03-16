@@ -24,7 +24,18 @@ function App() {
       </Row>,
       { /* ------------------------slider */ }
       <slider>
-          <h1>Slider</h1>
+      <div>
+                    <img src="https://cdn.shopify.com/s/files/1/1658/5307/products/bloomr-flowers-velvet-rose-artificial-flowers-artificial-trees-artificial-plants-dubai-saudi-arabia-uae-5152233848891_2024x2024.jpg?v=1575467895" />
+                    <p className="legend">Legend 1</p>
+                </div>
+                <div>
+                    <img src="https://cdn.shopify.com/s/files/1/1658/5307/products/bloomr-flowers-velvet-rose-artificial-flowers-artificial-trees-artificial-plants-dubai-saudi-arabia-uae-5152233848891_2024x2024.jpg?v=1575467895" />
+                    <p className="legend">Legend 2</p>
+                </div>
+                <div>
+                    <img src="https://cdn.shopify.com/s/files/1/1658/5307/products/bloomr-flowers-velvet-rose-artificial-flowers-artificial-trees-artificial-plants-dubai-saudi-arabia-uae-5152233848891_2024x2024.jpg?v=1575467895" />
+                    <p className="legend">Legend 3</p>
+                </div>
       </slider>
       {/* -------------------------Menu */}
       <menu id="part-menu">
@@ -32,7 +43,7 @@ function App() {
             <p>لورستم لورستم</p>
       </menu>
       {/* ------------------------- about*/}
-      <about>
+      <about id="text-center">
           <h2>ویژگی های دیگر تاکسی آنلاین</h2>
       </about>
       {/* ------------------------------- img*/}

@@ -9,6 +9,9 @@
     height: 311px;
     background-size: 100%;
 }
+#text-center h2{
+    text-align: center;
+}
 #part-menu{
     background-color: #5C4F13;
     color: #fff;
@@ -21,8 +24,10 @@
     text-align: center;
     background-color: #2F2E2E;
     color: #fff;
+    padding: 44px 0 0 0;
 }
 #part2{
     text-align: center;
     background-color: #F7D00C;
+    padding: 44px 0 0 0;
 }
