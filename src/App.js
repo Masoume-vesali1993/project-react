@@ -85,18 +85,39 @@ function App() {
             <h1 id="parttext">دانلود اپلیکشین موبایل</h1>
               <Row>
                 <Col span={6}>
-                  <Appid />
-                  <img src={Appid} />
+                    <Row>
+                      <Col span={12}>
+                        <Appid />
+                        <img src={Appid} />
+                      </Col>
+                      <Col span={12}>
+                        <p>دانلود مستقیم از بازار</p>
+                      </Col>
+                    </Row>
                 </Col>
 
                 <Col span={6}>
-                   <Apple />
-                  <img src={Apple} />
+                    <Row>
+                      <Col span={12}>
+                        <Apple />
+                        <img src={Appid} />
+                      </Col>
+                      <Col span={12}>
+                        <p>دانلود مستقیم </p>
+                      </Col>
+                    </Row>
                 </Col>
 
                 <Col span={6}>
-                 <Bazar />
-                  <img src={Bazar} />
+                    <Row>
+                      <Col span={12}>
+                        <Bazar />
+                        <img src={Bazar} />
+                      </Col>
+                      <Col span={12}>
+                        <p>دانلود از بازار </p>
+                      </Col>
+                    </Row>
                 </Col>
 
                 <Col span={6}>
