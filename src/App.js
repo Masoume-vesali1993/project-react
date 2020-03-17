@@ -55,18 +55,18 @@ function App() {
       </about>
       {/* ------------------------------- img*/}
         <Row>
-          <Left/>
               <Col xs={2} sm={4} md={6} lg={8} xl={10}>
+                <Left/>
                 <img src={Left}/>;
               </Col>
 
-          <Center/>
               <Col xs={20} sm={16} md={12} lg={8} xl={4}>
+                <Center/>
                 <img src={Center}/>;
               </Col>
 
-          <Right/>
                 <Col xs={2} sm={4} md={6} lg={8} xl={10}>
+                <Right/>
                   <img src={Right} />
                 </Col>
         </Row>
@@ -84,23 +84,23 @@ function App() {
           <download>
             <h1 id="parttext">دانلود اپلیکشین موبایل</h1>
               <Row>
-                <Appid />
                 <Col span={6}>
+                  <Appid />
                   <img src={Appid} />
                 </Col>
 
-                <Apple />
                 <Col span={6}>
+                   <Apple />
                   <img src={Apple} />
                 </Col>
 
-                <Bazar />
                 <Col span={6}>
+                 <Bazar />
                   <img src={Bazar} />
                 </Col>
 
-                <Download />
                 <Col span={6}>
+                   <Download />
                    <img src={Download} />
                 </Col>
               </Row>
