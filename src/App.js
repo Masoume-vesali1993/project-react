@@ -9,6 +9,11 @@ import Left  from './Components/Card/Left';
 import Center  from './Components/Card/Center';
 import Right  from './Components/Card/Right';
 import Towpart from './Components/Card/Towpart';
+import Download from './Components/Card/Download';
+import Appid from './Components/Card/Appid';
+import Apple from './Components/Card/Apple';
+import Bazar from './Components/Card/Bazar';
+
 
 
 function App() {
@@ -24,18 +29,20 @@ function App() {
       </Row>,
       { /* ------------------------slider */ }
       <slider>
-      <div>
-                    <img src="https://cdn.shopify.com/s/files/1/1658/5307/products/bloomr-flowers-velvet-rose-artificial-flowers-artificial-trees-artificial-plants-dubai-saudi-arabia-uae-5152233848891_2024x2024.jpg?v=1575467895" />
-                    <p className="legend">Legend 1</p>
-                </div>
-                <div>
-                    <img src="https://cdn.shopify.com/s/files/1/1658/5307/products/bloomr-flowers-velvet-rose-artificial-flowers-artificial-trees-artificial-plants-dubai-saudi-arabia-uae-5152233848891_2024x2024.jpg?v=1575467895" />
-                    <p className="legend">Legend 2</p>
-                </div>
-                <div>
-                    <img src="https://cdn.shopify.com/s/files/1/1658/5307/products/bloomr-flowers-velvet-rose-artificial-flowers-artificial-trees-artificial-plants-dubai-saudi-arabia-uae-5152233848891_2024x2024.jpg?v=1575467895" />
-                    <p className="legend">Legend 3</p>
-                </div>
+          <div>
+              <img src="https://auto.ndtvimg.com/car-images/large/ford/mustang/ford-mustang.jpg?v=32" />
+              <p className="legend">Legend 1</p>
+          </div>
+
+          <div>
+              {/* <img src="https://cdn.shopify.com/s/files/1/1658/5307/products/bloomr-flowers-velvet-rose-artificial-flowers-artificial-trees-artificial-plants-dubai-saudi-arabia-uae-5152233848891_2024x2024.jpg?v=1575467895" /> */}
+              <p className="legend">Legend 2</p>
+          </div>
+
+          <div>
+              {/* <img src="https://cdn.shopify.com/s/files/1/1658/5307/products/bloomr-flowers-velvet-rose-artificial-flowers-artificial-trees-artificial-plants-dubai-saudi-arabia-uae-5152233848891_2024x2024.jpg?v=1575467895" /> */}
+              <p className="legend">Legend 3</p>
+          </div>
       </slider>
       {/* -------------------------Menu */}
       <menu id="part-menu">
@@ -73,6 +80,31 @@ function App() {
                 <p>با کمک تاکسی آنلاین به راحتی می توان کسب درامد کرد</p>
               </Col>
           </Row>
+          {/* ------------------------------------download */}
+          <download>
+            <h1 id="parttext">دانلود اپلیکشین موبایل</h1>
+              <Row>
+                <Appid />
+                <Col span={6}>
+                  <img src={Appid} />
+                </Col>
+
+                <Apple />
+                <Col span={6}>
+                  <img src={Apple} />
+                </Col>
+
+                <Bazar />
+                <Col span={6}>
+                  <img src={Bazar} />
+                </Col>
+
+                <Download />
+                <Col span={6}>
+                   <img src={Download} />
+                </Col>
+              </Row>
+          </download>
     </div>
   );
 }
