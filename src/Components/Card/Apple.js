@@ -7,6 +7,6 @@ import Apple from './Img/apple-ios-logo-png-apple-ios-image-4085-256.png';
 console.log(Apple); // /logo.84287d09.png
 function application() {
   // Import result is the URL of your image
-  return <img src={Apple} alt="Download" width="100px" height="100px"/>;
+  return <img src={Apple} alt="Download" width="80px" height="80px"/>;
 }
 export default application;

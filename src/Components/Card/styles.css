@@ -59,3 +59,15 @@
 .img{
     padding-bottom: 30px;
 }
+.img-text{
+    padding-left: 30px;
+    padding-top: 130px;
+}
+.img-text-one{
+    border: 1px solid;
+    border-radius: 10px;
+    width: 255px;
+}
+.text-one p{
+    padding-top: 25px;
+}

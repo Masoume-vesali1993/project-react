@@ -13,6 +13,7 @@ import Download from './Components/Card/Download';
 import Appid from './Components/Card/Appid';
 import Apple from './Components/Card/Apple';
 import Bazar from './Components/Card/Bazar';
+import Servies from './Components/Card/Servies';
 
 
 
@@ -87,37 +88,37 @@ function App() {
           <download>
             <h1 id="parttext">دانلود اپلیکشین موبایل</h1>
               <Row>
-                <Col span={6}>
-                    <Row>
+                <Col span={6} className="img-text">
+                    <Row className="img-text-one">
                       <Col span={12}>
                         <Appid />
                         <img src={Appid} />
                       </Col>
-                      <Col span={12}>
+                      <Col span={12} className="text-one">
                         <p>دانلود مستقیم از بازار</p>
                       </Col>
                     </Row>
                 </Col>
 
-                <Col span={6}>
-                    <Row>
+                <Col span={6} className="img-text">
+                    <Row className="img-text-one">
                       <Col span={12}>
                         <Apple />
-                        <img src={Appid} />
+                        <img src={Apple} />
                       </Col>
-                      <Col span={12}>
+                      <Col span={12} className="text-one">
                         <p>دانلود مستقیم </p>
                       </Col>
                     </Row>
                 </Col>
 
-                <Col span={6}>
-                    <Row>
+                <Col span={6} className="img-text">
+                    <Row className="img-text-one">
                       <Col span={12}>
                         <Bazar />
                         <img src={Bazar} />
                       </Col>
-                      <Col span={12}>
+                      <Col span={12} className="text-one">
                         <p>دانلود از بازار </p>
                       </Col>
                     </Row>
@@ -129,6 +130,10 @@ function App() {
                 </Col>
               </Row>
           </download>
+          {/* ------------------------------------Servies */}
+          <servies>
+            <h1>خدمات تاکسی آنلاین</h1>
+          </servies>
     </div>
   );
 }
