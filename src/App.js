@@ -23,12 +23,12 @@ function App() {
           <Col span={18} push={6} className="part-right">
             <h3>سامانه درخواست تاکسی آنلاین</h3>
           </Col>
-          <Col span={6} pull={18} className="card">
+          <Col span={6} pull={18} className="card">  
             <p>اپ تاکسی آنلاین</p>
           </Col>
       </Row>,
       { /* ------------------------slider */ }
-      <slider>
+      <slider>               
           <div>
               <img src="https://auto.ndtvimg.com/car-images/large/ford/mustang/ford-mustang.jpg?v=32" />
               <p className="legend">Legend 1</p>
