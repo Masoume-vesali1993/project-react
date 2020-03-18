@@ -46,9 +46,16 @@
 #part2{
     text-align: center;
     background-color: #F7D00C;
-    padding: 44px 0 0 0;
+    padding: 44px 0 44px 0;
+    font-size: 15px;
 }
 #parttext{
     text-align: center;
     padding-top: 30px;
+}
+.part{
+    padding-left: 421px;
+}
+.img{
+    padding-bottom: 30px;
 }

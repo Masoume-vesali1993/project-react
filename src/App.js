@@ -54,20 +54,23 @@ function App() {
           <h2>ویژگی های دیگر تاکسی آنلاین</h2>
       </about>
       {/* ------------------------------- img*/}
-        <Row>
-              <Col xs={2} sm={4} md={6} lg={8} xl={10}>
+        <Row className="img">
+              <Col xs={2} sm={4} md={6} lg={8} xl={10} className="part">
                 <Left/>
                 <img src={Left}/>;
+                <p>امنیت در سفر</p>
               </Col>
 
               <Col xs={20} sm={16} md={12} lg={8} xl={4}>
                 <Center/>
                 <img src={Center}/>;
+                <p>قیمت مناسب</p>
               </Col>
 
                 <Col xs={2} sm={4} md={6} lg={8} xl={10}>
                 <Right/>
                   <img src={Right} />
+                  <p>درخواست آسان</p>
                 </Col>
         </Row>
           {/* ----------------------------------towpart */}
