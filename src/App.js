@@ -17,6 +17,8 @@ import Servies from './Components/Card/Servies';
 import Engine from './Components/Card/Engine';
 import Truck from './Components/Card/Truck';
 import Servi from './Components/Card/Servi';
+import Taxi from './Components/Card/Taxi';
+import Contact from './Components/Card/Contact';
 
 
 
@@ -139,12 +141,18 @@ function App() {
               <h1 className="textpart">خدمات تاکسی آنلاین</h1>
                 <Row gutter={16}>
                   <Col className="gutter-row" span={6}>
-                    <div>
-                      col-6
+                    <div className="part1">
+                      <Taxi />
+                      <img src={Taxi} />
+                      <p>تاکسی</p>
                     </div>
                   </Col>
                   <Col className="gutter-row" span={6}>
-                    <div>col-6</div>
+                    <div>
+                      <Servi />
+                      <img src={Servi} />
+                      <p>خدمات</p>
+                    </div>
                   </Col>
                   <Col className="gutter-row" span={6}>
                     <div>
@@ -163,6 +171,18 @@ function App() {
               </Row>
             </div>
           </servies>
+          {/* ------------------------------------Contact */}
+          <contact>
+             <Row>
+              <Col span={12}>
+                <p>برای تماس با بخش مدیریت با شمارهای زیر در تماس باشین</p>
+                <h3>0312456789</h3>
+                <h3>0312456789</h3>
+                <h3>0312456789</h3>
+              </Col>
+              <Col span={12}>col-12</Col>
+             </Row>
+          </contact>
     </div>
   );
 }
