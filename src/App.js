@@ -175,7 +175,7 @@ function App() {
           <div className="parttt">
             <contact>
               <Row className="parttext">
-                <Col span={12} id="idpart">
+                <Col span={12}>
                   <div className="textpp">
                     <p>برای تماس با بخش مدیریت با شمارهای زیر در تماس باشین</p>
                     <h3>0312456789</h3>

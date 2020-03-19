@@ -93,8 +93,7 @@
     background-color: #fde100;
     width: 400px;
     text-align: center;
-    padding-top: 20px;
-}
-#idpart{
-    padding-top: 30px;
+    padding: 31px 0 13px 0;
+    margin-left: 50px;
+    box-shadow: 0 0 #888, 0 0px #888, 14px -10px 25px 5px #888;
 }
