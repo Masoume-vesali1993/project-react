@@ -173,7 +173,7 @@ function App() {
           </servies>
           {/* ------------------------------------Contact */}
           <contact>
-             <Row>
+             <Row className="parttext">
               <Col span={12}>
                 <p>برای تماس با بخش مدیریت با شمارهای زیر در تماس باشین</p>
                 <h3>0312456789</h3>
