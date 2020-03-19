@@ -86,3 +86,15 @@
 .parttext{
     background-color: #495056;
 }
+.parttt{
+    padding-top: 80px;
+}
+.textpp{
+    background-color: #fde100;
+    width: 400px;
+    text-align: center;
+    padding-top: 20px;
+}
+#idpart{
+    padding-top: 30px;
+}
