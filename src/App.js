@@ -139,7 +139,7 @@ function App() {
           <servies>
             <div className="txt">
               <h1 className="textpart">خدمات تاکسی آنلاین</h1>
-                <Row gutter={16}>
+                <Row gutter={16} className="partt">
                   <Col className="gutter-row" span={6}>
                     <div className="part1">
                       <Taxi />
@@ -180,7 +180,11 @@ function App() {
                 <h3>0312456789</h3>
                 <h3>0312456789</h3>
               </Col>
-              <Col span={12}>col-12</Col>
+              <Col span={12}>
+                <h3>تاکسی آنلاین فرصت شغلی مناسب است</h3>
+                <h3>پل ارتباطی راهی بسیار آسان است</h3>
+                <h3>تخفیفات شامل تعداد درخواست تاکسی آنلاین است</h3>
+              </Col>
              </Row>
           </contact>
     </div>
