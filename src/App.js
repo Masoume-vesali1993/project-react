@@ -14,6 +14,9 @@ import Appid from './Components/Card/Appid';
 import Apple from './Components/Card/Apple';
 import Bazar from './Components/Card/Bazar';
 import Servies from './Components/Card/Servies';
+import Engine from './Components/Card/Engine';
+import Truck from './Components/Card/Truck';
+import Servi from './Components/Card/Servi';
 
 
 
@@ -132,7 +135,33 @@ function App() {
           </download>
           {/* ------------------------------------Servies */}
           <servies>
-            <h1>خدمات تاکسی آنلاین</h1>
+            <div className="txt">
+              <h1 className="textpart">خدمات تاکسی آنلاین</h1>
+                <Row gutter={16}>
+                  <Col className="gutter-row" span={6}>
+                    <div>
+                      col-6
+                    </div>
+                  </Col>
+                  <Col className="gutter-row" span={6}>
+                    <div>col-6</div>
+                  </Col>
+                  <Col className="gutter-row" span={6}>
+                    <div>
+                      <Truck />
+                      <img src={Truck} />
+                      <p>کامیون</p>
+                    </div>
+                  </Col>
+                  <Col className="gutter-row" span={6}>
+                    <div>
+                      <Engine />
+                      <img src={Engine} />
+                      <p>موتور</p>
+                    </div>
+                  </Col>
+              </Row>
+            </div>
           </servies>
     </div>
   );
