@@ -76,6 +76,7 @@
 }
 .txt{
     background-color: #F2F0F0;
+    padding: 34px 0 43px 0;
 }
 .part1{
     padding-left: 100px;
@@ -94,6 +95,19 @@
     width: 400px;
     text-align: center;
     padding: 31px 0 13px 0;
-    margin-left: 50px;
+    margin-left: 116px;
     box-shadow: 0 0 #888, 0 0px #888, 14px -10px 25px 5px #888;
+}
+.textppp{
+    margin-top: 50px;
+}
+.textppp h3{
+    background: #fde100;
+    text-align: center;
+    border: 2px solid #fde100;
+    border-radius: 0 50px 0 0;
+}
+.bestpart{
+    text-align: center;
+    padding-top: 30px;
 }

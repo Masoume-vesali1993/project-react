@@ -19,6 +19,7 @@ import Truck from './Components/Card/Truck';
 import Servi from './Components/Card/Servi';
 import Taxi from './Components/Card/Taxi';
 import Contact from './Components/Card/Contact';
+import Best from './Components/Card/Best';
 
 
 
@@ -175,7 +176,7 @@ function App() {
           <div className="parttt">
             <contact>
               <Row className="parttext">
-                <Col span={12}>
+                <Col span={8}>
                   <div className="textpp">
                     <p>برای تماس با بخش مدیریت با شمارهای زیر در تماس باشین</p>
                     <h3>0312456789</h3>
@@ -183,14 +184,36 @@ function App() {
                     <h3>0312456789</h3>
                   </div>
                 </Col>
-                <Col span={12}>
+                <Col span={12} className="textppp">
                   <h3>تاکسی آنلاین فرصت شغلی مناسب است</h3>
                   <h3>پل ارتباطی راهی بسیار آسان است</h3>
                   <h3>تخفیفات شامل تعداد درخواست تاکسی آنلاین است</h3>
                 </Col>
+                <Col span={4}></Col>
               </Row>
             </contact>
           </div>
+          {/* -----------------------------------Best */}
+          <best>
+            <div className="bestpart">
+              <h1>بهترین معاملات</h1>
+              <h3>انتخاب نوع ماشین مورد نظر</h3>
+            </div>
+            <Row>
+              <Col span={8}>
+                <h4>ماشین یک</h4>
+                <p>بهترین و پرکیفیت ترین ماشین</p>
+              </Col>
+              <Col span={8}>
+                <h4>ماشین یک</h4>
+                <p>بهترین و پرکیفیت ترین ماشین</p>
+              </Col>
+              <Col span={8}>
+                <h4>ماشین یک</h4>
+                <p>بهترین و پرکیفیت ترین ماشین</p>
+              </Col>
+          </Row>
+          </best>
       </div>
   );
 }
