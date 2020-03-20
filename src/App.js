@@ -20,6 +20,8 @@ import Servi from './Components/Card/Servi';
 import Taxi from './Components/Card/Taxi';
 import Contact from './Components/Card/Contact';
 import Best from './Components/Card/Best';
+import Car1 from './Components/Card/Car1';
+
 
 
 
@@ -200,20 +202,30 @@ function App() {
               <h3>انتخاب نوع ماشین مورد نظر</h3>
             </div>
             <Row>
-              <Col span={8}>
+              <Col span={8} className="bestimg">
+                <Car1 />
+                <img src={Car1} />
                 <h4>ماشین یک</h4>
                 <p>بهترین و پرکیفیت ترین ماشین</p>
               </Col>
+
               <Col span={8}>
+                <Car1 />
+                <img src={Car1} />
                 <h4>ماشین یک</h4>
                 <p>بهترین و پرکیفیت ترین ماشین</p>
               </Col>
+
               <Col span={8}>
+                <Car1 />
+                <img src={Car1} />
                 <h4>ماشین یک</h4>
                 <p>بهترین و پرکیفیت ترین ماشین</p>
               </Col>
           </Row>
-          </best>
+        </best>
+        {/* ------------------------------------Car1 */}
+        
       </div>
   );
 }
