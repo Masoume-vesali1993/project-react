@@ -203,9 +203,9 @@ function App() {
           <best>
             <div className="bestpart">
               <h1>بهترین معاملات</h1>
-              <h3>انتخاب نوع ماشین مورد نظر</h3>
+              <h3 className="tagtt">انتخاب نوع ماشین مورد نظر</h3>
             </div>
-            <Row>
+            <Row className="rowimg">
               <Col span={8}>
                 <Car1 />
                 <img src={Car1} />
@@ -227,7 +227,7 @@ function App() {
                 <p>بهترین و پرکیفیت ترین ماشین</p>
               </Col>
           </Row>
-          <h1 className="tagcenter"><a>تصاویر بیشتر</a></h1>
+          <h1 className="tagcenter"><a id="tagen">تصاویر بیشتر</a></h1>
         </best>
         {/* ------------------------------------Car1 */}
         <trip>
@@ -244,7 +244,7 @@ function App() {
         {/* ---------------------------------footer */}
         <div className="footer">
           <footer>
-            <Row>
+            <Row className="partfooter">
               <Col span={6} className="imgfooter">
                 <Imgfooter/>
                 <img src={Imgfooter} />
@@ -268,6 +268,7 @@ function App() {
                 <p>تاکسی آنلاین خدمات نظیر درخوتست آسان برای مشتریان دارد</p>
               </Col>
             </Row>
+            <h4 className="textendpp">تمامی حق و حقوق این سایت متعلق به تیم می باشد</h4>
           </footer>
         </div>
 

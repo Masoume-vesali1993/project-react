@@ -148,3 +148,23 @@
     border: 1px solid #000;
     border-radius: 10px;
 }
+.partfooter{
+    border-bottom: 3px solid #fff;
+}
+.textendpp{
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+}
+#tagen{
+    background: #FFDA1F;
+    padding: 15px 21px;
+    border: 1px solid #000;
+}
+.rowimg{
+    padding-bottom: 50px;
+}
+.tagtt{
+    border-bottom: 3px solid #FFDA1F;
+    margin-bottom: 60px;
+}
