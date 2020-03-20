@@ -118,3 +118,11 @@
     border: 1px solid;
     border-radius: 14px;
 }
+.tagcenter{
+    text-align: center;
+}
+.textend{
+    text-align: center;
+    background-color: #FFDA1F;
+    margin-top: 100px;
+}

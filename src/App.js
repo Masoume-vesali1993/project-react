@@ -21,6 +21,7 @@ import Taxi from './Components/Card/Taxi';
 import Contact from './Components/Card/Contact';
 import Best from './Components/Card/Best';
 import Car1 from './Components/Card/Car1';
+import Trip from './Components/Card/Trip';
 
 
 
@@ -223,8 +224,15 @@ function App() {
                 <p>بهترین و پرکیفیت ترین ماشین</p>
               </Col>
           </Row>
+          <h1 className="tagcenter"><a>تصاویر بیشتر</a></h1>
         </best>
         {/* ------------------------------------Car1 */}
+        <trip>
+          <div className="textend">
+            <h3>برای اطمینان از سفر و خدمات ما</h3>
+            <h1><a> ادامه مطلب</a></h1>
+          </div>
+        </trip>
         
       </div>
   );
