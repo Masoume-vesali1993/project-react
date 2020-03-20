@@ -22,6 +22,8 @@ import Contact from './Components/Card/Contact';
 import Best from './Components/Card/Best';
 import Car1 from './Components/Card/Car1';
 import Trip from './Components/Card/Trip';
+import Phone from './Components/Card/Phone';
+import Footer from './Components/Card/Footer';
 
 
 
@@ -233,6 +235,32 @@ function App() {
             <h1><a> ادامه مطلب</a></h1>
           </div>
         </trip>
+        {/* ----------------------------------phone */}
+        <div className="imgpp">
+          <Phone/>
+          <img src={Phone}/>
+        </div>
+        {/* ---------------------------------footer */}
+        <div>
+          <footer>
+            <Row>
+              <Col span={6}>col-6</Col>
+              <Col span={6}>col-6</Col>
+              <Col span={6}>
+                <ul>
+                  <li>پیام</li>
+                  <li>رانندگان</li>
+                  <li>درخواست</li>
+                </ul>
+              </Col>
+              <Col span={6}>
+                <h4>درباره ما</h4>
+                <p>تاکسی آنلاین خدمات نظیر درخوتست آسان برای مشتریان دارد</p>
+              </Col>
+            </Row>
+          </footer>
+        </div>
+
         
       </div>
   );
