@@ -202,7 +202,7 @@ function App() {
               <h3>انتخاب نوع ماشین مورد نظر</h3>
             </div>
             <Row>
-              <Col span={8} className="bestimg">
+              <Col span={8}>
                 <Car1 />
                 <img src={Car1} />
                 <h4>ماشین یک</h4>
