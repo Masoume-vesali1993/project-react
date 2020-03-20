@@ -131,3 +131,20 @@
     margin-left: 587px;
     margin-top: 50px;
 }
+.footer{
+    background-color: #707070;
+    color: #fff;
+    padding: 50px 0;
+}
+.textfooter{
+    text-align: center;
+    color: #AE874B;
+}
+.listfooter{
+    list-style-type: none;
+}
+.imgfooter img{
+    margin-left: 60px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}

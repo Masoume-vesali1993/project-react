@@ -24,6 +24,7 @@ import Car1 from './Components/Card/Car1';
 import Trip from './Components/Card/Trip';
 import Phone from './Components/Card/Phone';
 import Footer from './Components/Card/Footer';
+import Imgfooter from './Components/Card/Imgfooter';
 
 
 
@@ -241,20 +242,29 @@ function App() {
           <img src={Phone}/>
         </div>
         {/* ---------------------------------footer */}
-        <div>
+        <div className="footer">
           <footer>
             <Row>
-              <Col span={6}>col-6</Col>
-              <Col span={6}>col-6</Col>
+              <Col span={6} className="imgfooter">
+                <Imgfooter/>
+                <img src={Imgfooter} />
+              </Col>
               <Col span={6}>
-                <ul>
+              <ul className="listfooter">
+                  <li>خدمات آسان</li>
+                  <li>خدمات اول</li>
+                  <li>خدمات دوم</li>
+                </ul>
+              </Col>
+              <Col span={6}>
+                <ul className="listfooter">
                   <li>پیام</li>
                   <li>رانندگان</li>
                   <li>درخواست</li>
                 </ul>
               </Col>
               <Col span={6}>
-                <h4>درباره ما</h4>
+                <h4 className="textfooter">درباره ما</h4>
                 <p>تاکسی آنلاین خدمات نظیر درخوتست آسان برای مشتریان دارد</p>
               </Col>
             </Row>
